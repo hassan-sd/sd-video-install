@@ -47,5 +47,7 @@ if sys.platform == "win32":
 else:
     activate_script = os.path.join("venv", "bin", "activate")
 
-print(f"Please activate the virtual environment by running 'source {activate_script}' and then run 'pip install -r requirements/requirements.txt'")
-print("After installing the requirements, run 'streamlit run video_sampling.py' to open the tool.")
+print(f"Please activate the virtual environment by running 'source {activate_script}'.")
+print("Then run 'pip install -r requirements/requirements.txt'.")
+print("After installing the requirements, install xformers using 'pip install -U xformers --index-url https://download.pytorch.org/whl/cu121'.")
+print("Finally, run 'streamlit run video_sampling.py' to open the tool.")
