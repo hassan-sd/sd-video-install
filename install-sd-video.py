@@ -20,7 +20,7 @@ run_command(["curl", "-LJO", "https://raw.githubusercontent.com/hassan-sd/sd-vid
 run_command(["curl", "-LJO", "https://raw.githubusercontent.com/hassan-sd/sd-video-install/main/streamlit_helpers.py", "-o", "scripts/demo/streamlit_helpers.py"])
 
 # Create a folder called "Checkpoints"
-os.makedirs("Checkpoints", exist_ok=True)
+os.makedirs("checkpoints", exist_ok=True)
 
 # Download files to the Checkpoints folder
 checkpoint_urls = [
