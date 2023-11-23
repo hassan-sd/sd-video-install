@@ -15,10 +15,10 @@ powershell -Command "Invoke-WebRequest -Uri 'https://raw.githubusercontent.com/h
 mkdir Checkpoints
 
 :: Download files to the Checkpoints folder
-powershell -Command "Invoke-WebRequest -Uri 'https://huggingface.co/stabilityai/stable-video-diffusion-img2vid/resolve/main/svd.safetensors?download=true' -OutFile 'Checkpoints\svd.safetensors'"
-powershell -Command "Invoke-WebRequest -Uri 'https://huggingface.co/stabilityai/stable-video-diffusion-img2vid/resolve/main/svd_image_decoder.safetensors?download=true' -OutFile 'Checkpoints\svd_image_decoder.safetensors'"
-powershell -Command "Invoke-WebRequest -Uri 'https://huggingface.co/stabilityai/stable-video-diffusion-img2vid-xt/resolve/main/svd_xt.safetensors?download=true' -OutFile 'Checkpoints\svd_xt.safetensors'"
-powershell -Command "Invoke-WebRequest -Uri 'https://huggingface.co/stabilityai/stable-video-diffusion-img2vid-xt/resolve/main/svd_xt_image_decoder.safetensors?download=true' -OutFile 'Checkpoints\svd_xt_image_decoder.safetensors'"
+powershell -Command "Invoke-WebRequest -Uri 'https://huggingface.co/stabilityai/stable-video-diffusion-img2vid/resolve/main/svd.safetensors?download=true' -OutFile 'checkpoints\svd.safetensors'"
+powershell -Command "Invoke-WebRequest -Uri 'https://huggingface.co/stabilityai/stable-video-diffusion-img2vid/resolve/main/svd_image_decoder.safetensors?download=true' -OutFile 'checkpoints\svd_image_decoder.safetensors'"
+powershell -Command "Invoke-WebRequest -Uri 'https://huggingface.co/stabilityai/stable-video-diffusion-img2vid-xt/resolve/main/svd_xt.safetensors?download=true' -OutFile 'checkpoints\svd_xt.safetensors'"
+powershell -Command "Invoke-WebRequest -Uri 'https://huggingface.co/stabilityai/stable-video-diffusion-img2vid-xt/resolve/main/svd_xt_image_decoder.safetensors?download=true' -OutFile 'checkpoints\svd_xt_image_decoder.safetensors'"
 
 :: Download the requirements.txt file to the /requirements directory
 mkdir requirements
