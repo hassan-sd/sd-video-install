@@ -33,5 +33,8 @@ call venv\Scripts\activate.bat
 :: Install all requirements
 pip install -r requirements\requirements.txt
 
+:: Install xformers
+pip install -U xformers --index-url https://download.pytorch.org/whl/cu121
+
 :: Run the Streamlit application
 streamlit run video_sampling.py
