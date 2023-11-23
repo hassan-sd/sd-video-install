@@ -15,7 +15,7 @@ Before proceeding, ensure you have the following installed:
 
 ### Step 1: Download the Batch File
 
-Download the `setup-generative-models.bat` file from the repository.
+Download the `install-sd-video.bat` file from the repository.
 
 ### Step 2: Run the Batch File
 
