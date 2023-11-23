@@ -19,7 +19,7 @@ Download the `setup-generative-models.bat` file from the repository.
 
 ### Step 2: Run the Batch File
 
-Double-click on the `setup-generative-models.bat` file to run it. This script will:
+Double-click on the `install-sd-video.bat` file to run it. This script will:
 
 -   Clone the generative-models repository
 -   Download necessary files and scripts
@@ -48,7 +48,7 @@ arduinoCopy code
 
 ### Step 1: Download the Python Script
 
-Download the `setup_generative_models.py` file from the repository.
+Download the `install-sd-video.py` file from the repository.
 
 ### Step 2: Run the Python Script
 
@@ -56,7 +56,7 @@ Execute the script using Python:
 
 Copy code
 
-`python setup_generative_models.py` 
+`python python install-sd-video.py` 
 
 This script performs similar tasks as the batch file but is compatible with multiple operating systems.
 
