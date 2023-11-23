@@ -56,7 +56,7 @@ Execute the script using Python:
 
 Copy code
 
-`python python install-sd-video.py` 
+`python install-sd-video.py` 
 
 This script performs similar tasks as the batch file but is compatible with multiple operating systems.
 
