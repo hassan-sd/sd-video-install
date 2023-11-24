@@ -35,6 +35,6 @@ pip install -r requirements\requirements.txt
 
 :: Install xformers
 pip install -U xformers --index-url https://download.pytorch.org/whl/cu121
-
+pip install https://huggingface.co/r4ziel/xformers_pre_built/resolve/main/triton-2.0.0-cp310-cp310-win_amd64.whl
 :: Run the Streamlit application
 streamlit run video_sampling.py
