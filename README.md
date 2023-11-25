@@ -76,4 +76,6 @@ arduinoCopy code
 **Note** : Some folks have issues with the download of huggingface models, if you want to manually download the models yourself, you can comment you the following lines in the bat or python files:
 * Batch: Lines 18-22
 * Python: Lines 25 to 35
+
+  
 If you encounter any issues during the installation or execution process, ensure all prerequisites are correctly installed and up-to-date. For further assistance, consult the official documentation or reach out to the support community.
